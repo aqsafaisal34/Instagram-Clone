@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .leftside {
+    width: 300px;
+    border-right: 1px solid rgb(198, 195, 195);
+    
+  }
+  
+  .leftside>img {
+    margin: 10px 5px;
+  }
+  
+  .rightside {
+    width: 400px;
+    height: 100vh;
+    margin: 10px 6px;
+  }
+  
+  .centre {
+    width: 900px;
+    border-right: 1px solid rgb(198, 195, 195);
+    margin: 6px 3px;
+  }
+  
+  .list>ul {
+    list-style: none;
+  }
+  
+  .list>ul>li {
+    padding: 25px 0;
+    margin-left: 25px;
+  }
+  
+  .list>ul>li>.Icon {
+    margin-right: 15px;
+  }
+  
+  footer {
+    margin-top: 15px;
+    font-size: small;
+    font-weight: lighter;
+  }
+  
+  footer>ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  footer>ul>li {
+    margin-left: 3px;
+    list-style: none;
+  }
+  
+  .secondrow>h6 {
+    font-weight: lighter;
+    font-size: large;
+  }
+  
+  .secondrow>ul>li {
+    list-style: none;
+    margin: 15px 2px;
+  }
+  
+  #profileLogo {
+    margin-right: 3px;
+  }
+  
+  .firstrow {
+    margin: 4px 0;
+  }
+  
+  .firstrow>button {
+    border: none;
+    color: rgba(32, 78, 171, 0.592);
+    background-color: white;
+    float: right;
+  }
+  
+  header {
+    display: flex;
+  }
+  
+  header>h3 {
+    margin: 12px 3px;
+    font-weight: 600;
+  }
+  
+  .profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 3px;
+  }
+  
+  .post1 {
+    box-sizing: border-box;
+  }
+  
+  .icon {
+    margin: 0px;
+    width: 300px;
+  }
+  
+  #input {
+    border: none;
+  }
+  
+  .icon1 {
+    margin: 10px;
+    font-size: 20px;
+    background-color: #fff;
+  
+  }
+  
+  .icon1:hover {
+    color: #8E8E8E;
+    cursor: pointer;
+  }
+  
+  .icons {
+    display: flex;
+  }
+  
+  .addcomment {
+    margin: 0% 4px;
+    font-size: 30px;
+  }
+  
+  .footer1 {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #EEEEEE;
+    border-bottom: 2px solid #EEEEEE;
+    height: 50px;
+    padding: 10px;
+  }
+  
+  #comment {
+    margin: 3px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover {
+    color: #8E8E8E;
+    cursor: pointer;
+  }
+  
+  a:active {
+    border: 0;
+  }
+  
+  
+  button {
+    border: 0;
+    color: #0095F6;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 800px) {
+    .leftside {
+      display: none;
+    }
+  
+    .rightside {
+      display: none;
+    }
+  
+    .centre {
+      width: 100%;
+      border: none;
+    }
+  }
+  .leftside>img{
+    position: sticky;
+    top:2px;
+  }
+  .list{
+    position: sticky;
+    top: 70px;
+  }
+  
